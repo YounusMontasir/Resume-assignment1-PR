@@ -28,6 +28,15 @@ line-height: 37px;
 letter-spacing: 0%;
 text-align: center;
   }
+  .title-secondary{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 24px;
+font-weight: 800;
+line-height: 36px;
+letter-spacing: 0%;
+text-align: left;
+  }
 
   /* nav */
   nav{
@@ -200,6 +209,99 @@ padding: 12px 20px 12px 20px;
 border: 1px solid rgba(13, 19, 33, 0.2);
 border-radius: 16px;
 padding: 32px;
+  }
+
+
+  /* target section */
+
+  .target-title{
+    margin-top: 151px;
+    margin-bottom: 24px;
+  }
+  .target-description{
+    margin-bottom: 48px;
+    text-align: center;
+  }
+
+  .skills{
+    display: flex;
+    gap: 24px;
+  }
+  .skill{
+    padding: 40px;
+  }
+  .skill-title{
+    margin-top: 24px;
+    margin-bottom: 8px;
+  }
+  .skill-description{
+    margin-bottom: 24px;
+  }
+  .skill-link{
+    color: rgb(13, 19, 33);
+font-size: 16px;
+font-weight: 700;
+line-height: 19px;
+letter-spacing: 0%;
+text-align: left;
+text-decoration-line: underline;
+  }
+  .skill-1{
+    border-radius: 16px;
+background: rgba(255, 76, 30, 0.05);
+  }
+  .skill-2{
+    border-radius: 16px;
+
+background: rgba(0, 76, 232, 0.05);
+  }
+
+  .skill-3{
+    border-radius: 16px;
+
+background: rgba(255, 223, 0, 0.05);
+  }
+
+  /* next target */
+  .next-target-title{
+    margin-top: 111px;
+    margin-bottom: 24px;
+  }
+  .next-target-description{
+    margin-bottom: 48px;
+    text-align: center;
+  }
+  .next-target-skill{
+    display: flex;
+    gap: 24px;
+    padding: 40px;
+    box-sizing: border-box;
+border: 1px solid rgba(13, 19, 33, 0.15);
+border-radius: 16px;
+margin-bottom: 24px;
+  }
+.next-target-content-title{
+  margin-bottom: 8px;
+} 
+
+
+  .next-target-skill img{
+    margin-top: 27.5px;
+    margin-bottom: 27.5px;
+  }
+  .next-target-content-description{
+    margin-bottom: 24px;
+  }
+  .next-target-link{
+    margin-bottom: 0px;
+    color: rgb(13, 19, 33);
+font-size: 16px;
+font-weight: 700;
+line-height: 19px;
+letter-spacing: 0%;
+text-align: left;
+text-decoration-line: underline;
+padding-bottom: 0;
   }
   
 
